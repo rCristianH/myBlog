@@ -10,33 +10,99 @@ body {
   left: 0;
   right: 0;
 }
-a{
-    text-decoration: none;
-    display: inline;
-    color: black;
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
 }
-header{
-    width: 100%;
-    height: 140px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+header {
+  width: 100%;
+  height: 140px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
-header .header-icons-container{
-    width: 100%;
-    height: 50px;
-    display: grid;
-    background-color: salmon;
+header .header-icons-container {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  background-color: #f3f6fc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
-header .header-icons-container .icons{
-    width: 300px;
-    height: auto;
-    display: flex;
-    justify-items: flex-end;
-    justify-content: space-between;
-    align-items: center;
-    justify-self: end;
-    margin-right: 50px;
+header .header-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: end;
+  margin-right: 50px;
 }
-header .icons span{
-    color: white;
+header .icons span {
+  color: black;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+nav .nav-logo-container {
+  margin-left: 50px;
+}
+nav .nav-logo-container img {
+  height: 80px;
+  margin-top: 5px;
+  border-radius: 35%;
+}
+nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+nav .profile-link a {
+  border-bottom: 1px solid black;
+}
+main {
+  background-color: #f3f6fc;
+  width: calc(100% - 20px);
+  height: calc(80% - 25px);
+  margin: 0 10px;
+  background-image: url("https://lh3.googleusercontent.com/Jh_TEVO-gBzrFMtRXLCR6AADTOc77YhIxSzRZVez8ZELqeT5l9lZWbzokew4KuuijzdK3m-uF-_TlWIrMhumFt1sA3vxMP3Kczmc6Abnl8X74QwVMB8=w2400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  opacity: 100%;
+}
+main .main-container {
+  display: flex;
+
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .main-container-title {
+  margin-top: 10%;
+  width: 60%;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0, 90%);
+  border-radius: 50px;
+}
+main .main-container .main-container-buttom {
+  background-color: #d0bcff;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: fit-content;
+  font-size: 25px;
+  justify-self: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.649);
+}
+main .main-container .main-container-buttom a {
+  color: #381e72;
 }
