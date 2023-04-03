@@ -1,3 +1,10 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --white-palid: #f3f6fc;
+  --mora-fuerte: #381e72;
+  --mora-suave: #d0bcff;
+}
 * {
   box-sizing: border-box;
 }
@@ -13,7 +20,7 @@ body {
 a {
   text-decoration: none;
   display: inline;
-  color: black;
+  color: var(--black);
 }
 header {
   width: 100%;
@@ -25,7 +32,7 @@ header .header-icons-container {
   width: 100%;
   height: 50px;
   display: grid;
-  background-color: #f3f6fc;
+  background-color: var(--white-palid);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
 header .header-icons-container .icons {
@@ -39,10 +46,10 @@ header .header-icons-container .icons {
   margin-right: 50px;
 }
 header .icons span {
-  color: black;
+  color: var(--black);
 }
 header .icons span:hover {
-  color: #381e72;
+  color: var(--mora-fuerte);
 }
 nav {
   display: grid;
@@ -68,19 +75,18 @@ nav .profile-link {
   font-family: "Quicksand", sans-serif;
 }
 nav .profile-link a {
-  color: #381e72;
-  border-bottom: 1px dotted #381e72;
+  color: var(--mora-fuerte);
+  border-bottom: 1px dotted var(--mora-fuerte);
 }
 nav .profile-link a:hover {
-  color: black;
-  border-bottom: 1px solid black;
+  color: var(--black);
+  border-bottom: 1px solid var(--black);
 }
 main {
-  background-color: #f3f6fc;
   width: calc(100% - 20px);
   height: calc(80% - 25px);
   margin: 0 10px;
-  background-image: url("https://lh3.googleusercontent.com/Jh_TEVO-gBzrFMtRXLCR6AADTOc77YhIxSzRZVez8ZELqeT5l9lZWbzokew4KuuijzdK3m-uF-_TlWIrMhumFt1sA3vxMP3Kczmc6Abnl8X74QwVMB8=w2400");
+  background-image: url("../assets/imgs/720.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -101,12 +107,13 @@ main .main-container-title {
   margin-top: 10%;
   width: 60%;
   text-align: center;
-  color: white;
+  color: var(--white);
   background-color: rgba(0, 0, 0, 90%);
   border-radius: 50px;
+  padding: 12px;
 }
 main .main-container .main-container-buttom {
-  background-color: #d0bcff;
+  background-color: var(--mora-suave);
   border-radius: 100px;
   padding: 10px 24px;
   width: fit-content;
@@ -115,5 +122,24 @@ main .main-container .main-container-buttom {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.649);
 }
 main .main-container .main-container-buttom a {
-  color: #381e72;
+  color: var(--mora-fuerte);
+}
+.dark-mode-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  border-radius: 50%;
+}
+.dark-mode-container .dark-mode-container-icon {
+  font-size: 50px;
+  display: inline-block;
+}
+@media (max-width: 500px) {
+  .main-container-title {
+    font-size: 1.9rem;
+  }
 }
