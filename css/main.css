@@ -4,6 +4,9 @@
   --white-palid: #f3f6fc;
   --mora-fuerte: #381e72;
   --mora-suave: #d0bcff;
+  /* Dark */
+  --gris-oscuro: #181a1b;
+  -gris-claro: #1c1f20
 }
 * {
   box-sizing: border-box;
