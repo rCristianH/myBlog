@@ -185,6 +185,7 @@ main .main-container-title {
 }
 .blogs-posts-container {
   padding: 0 50px 40px;
+  text-align: center;
 }
 .blogs-posts-container h3 {
   border-bottom: 1px solid var(--mora-fuerte);
@@ -201,16 +202,33 @@ main .main-container-title {
   font-weight: 600;
 }
 
+.blogs-posts-container .post-container {
+  display: inline-block;
+  padding-left: 10px;
+  max-width: 30%;
+  margin-bottom: 50px;
 
+}
+.blogs-posts-container .post-container p {
+  margin-bottom: 35px;
+  text-align: start;
+}
+.blogs-posts-container .post-container img {
+  width: 100%;
+  border-radius: 20px;
+}
 
-
-
-
-
-
-
-
-
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: var(--gris-oscuro);
+  border-top: 35px solid var(--mora-suave);
+  text-align: center;
+}
+footer p {
+  color: white;
+  margin-top: 22px;
+}
 
 @media (max-width: 500px) {
   .main-container-title {
