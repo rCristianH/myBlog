@@ -1,0 +1,9 @@
+@media (min-width: 780px) {
+    .projects-container--slider {
+      justify-content: center;
+    }
+    .projects-container h3 {
+      margin: 20px;
+    }
+  }
+  
