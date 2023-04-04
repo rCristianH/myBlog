@@ -231,6 +231,7 @@ main .main-container-title {
 }
 .blogpost-img-container img {
   width: 80%;
+  border-radius: 24px;
 }
 .blogpost-main-container {
   margin: 0 auto;
@@ -255,6 +256,7 @@ main .main-container-title {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   align-items: center;
+  border-radius: 20px 20px 0 0;
 }
 
 .contact-main-container .contact {
