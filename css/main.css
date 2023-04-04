@@ -30,6 +30,11 @@ html::-webkit-scrollbar-thumb {
   left: 0;
   right: 0;
 }
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -207,11 +212,13 @@ main .main-container-title {
   padding-left: 10px;
   max-width: 30%;
   margin-bottom: 50px;
-
 }
 .blogs-posts-container .post-container p {
   margin-bottom: 35px;
   text-align: start;
+}
+.post-container-titulo-articulo{
+  font-weight: 700;
 }
 .blogs-posts-container .post-container img {
   width: 100%;
@@ -233,5 +240,14 @@ footer p {
 @media (max-width: 500px) {
   .main-container-title {
     font-size: 1.9rem;
+  }
+  .blogs-main-new {
+    display: block;
+  }
+  .blogs-posts-container .post-container {
+    max-width: 48%;
+  }
+  .header-icons-container .icons {
+    max-width: 271px;
   }
 }
