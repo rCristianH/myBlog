@@ -105,6 +105,10 @@ nav .profile-link a:hover {
   color: var(--black);
   border-bottom: 1px solid var(--black);
 }
+.flaticon-014-correo{
+  background-image: url("../assets/icons/correo.png");
+  display: inline-block;
+}
 .main {
   width: calc(100% - 20px);
   height: calc(80% - 25px);
@@ -369,5 +373,7 @@ footer {
 }
 footer p {
   color: white;
-  margin-top: 22px;
+  margin: 22px auto 22px;
+
+  max-width: 900px;
 }
