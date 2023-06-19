@@ -120,14 +120,13 @@ main .main-container {
   display: flex;
   font-family: "Quicksand";
   font-weight: 700;
-  font-size: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 main .main-container-title {
   margin-top: 10%;
-  width: 60%;
+  width: fit-content;
   text-align: center;
   color: var(--white);
   background-color: rgba(0, 0, 0, 90%);
