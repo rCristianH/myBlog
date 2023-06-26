@@ -1,9 +1,10 @@
-@media (min-width: 780px) {
-    .projects-container--slider {
-      justify-content: center;
-    }
-    .projects-container h3 {
-      margin: 20px;
-    }
+@media (max-width: 780px) {
+  .professional-skills .grid-container {
+    max-width: 460px;
+    grid-template: repeat(4, auto) / repeat(2, 1fr);
+    gap: 20px;
   }
-  
+  .projects-container--slider {
+    justify-content: normal;
+  }
+}
