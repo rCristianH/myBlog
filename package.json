@@ -23,7 +23,8 @@
   "author": "Cristian Ramirez",
   "license": "MIT",
   "devDependencies": {
-    "vite": "^5.1.0"
+    "vite": "^5.1.0",
+    "vite-plugin-pwa": "^0.17.5"
   },
   "dependencies": {
     "hyperscript": "^2.0.2"

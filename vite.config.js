@@ -1,8 +1,8 @@
 import { defineConfig } from "vite"
-import {vitePWA} from 'vite-plugin-pwa'
+import {VitePWA} from 'vite-plugin-pwa'
 export default defineConfig({
   base: "/myBlog/",
-  plugins: [vitePWA({
+  plugins: [VitePWA({
     registerType: 'autoUpdate',
     workbox: {
       globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
