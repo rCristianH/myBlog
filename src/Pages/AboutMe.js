@@ -39,7 +39,7 @@ export const AboutMe = h("main", [
       ]),
       h("div.skills-container", [
         h("div.skill-item", [
-          h("p", "Aprendizaje continuo de <br>habilidades y conocimientos"),
+          h("p", "Aprendizaje continuo de", h("br"), "habilidades y conocimientos"),
         ]),
       ]),
       h("div.skills-container", [
