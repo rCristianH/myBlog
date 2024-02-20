@@ -51,7 +51,7 @@ const Listeners = () => {
       onBodyReplace("replace", lost);
       setTimeout(() => {
         onBodyReplace("remove", Main, [4, 3]);
-        window.history.pushState(null, null, "/");
+        window.history.pushState(null, null, "myBlog");
       }, 3000);
     }
   });
