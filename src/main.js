@@ -2,6 +2,9 @@ import ButtonDarkMode from "./templates/DarkMode/ButtonDarkMode.js";
 import Header from "./templates/Header/Header.js";
 import Main from "./templates/Main/Main.js";
 import Listeners from "./utils/listeners.js";
+
+import "../css/main.css";
+
 export const $root = document.querySelector(".root");
 
 $root.appendChild(Header);

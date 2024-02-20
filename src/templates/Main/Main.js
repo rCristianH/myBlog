@@ -8,7 +8,6 @@ const Main = h("main.main", [
         "Conoce las novedades y noticias del Mundo Tech"
       ),
       h("div.primary-button.main--home-container--button","Entra ya!"),
-    
   ]),
 ]);
 
