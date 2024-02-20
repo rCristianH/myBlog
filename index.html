@@ -22,55 +22,14 @@
     <!-- Style Sheet -->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 780px)">
+    <!-- <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 780px)"> -->
     <link rel="stylesheet" href="./css/mobile.css" media="(max-width: 500px)">
+    <script type="module" src="./src/main.js"></script>
     <title>Mi Blog</title>
 </head>
 
-<body class="no-scroll">
-    <header>
-        <section class="header-icons-container">
-            <div class="icons">
-                <a href="https://www.linkedin.com/in/rcristianh/"><span class="flaticon-010-linkedin"></span></a>
-                <a href="https://twitter.com/rCristianHR"><span class="flaticon-002-twitter"></span></a>
-                <a><span class="flaticon-011-instagram"></span></a>
-                <a><span class="flaticon-001-facebook"></span></a>
-                <a><span class="flaticon-008-youtube"></span></a>
-            </div>
-        </section>
-        <nav>
-            <section class="nav-logo-container">
-                <a href=""><img src="./assets/imgs/logo200.webp" alt="Logo de mi blog"></a>
-            </section>
-            <section class="profile-link"><a href="./about-me.html">Sobre mí</a></section>
-
-        </nav>
-
-    </header>
-    <main class="main">
-        <section class="home-main">
-            <div class="main-container">
-                <h2 class="main-container-title">Conoce las novedades y noticias del Mundo Tech</h2>
-                <div class="container-button">
-                    <a href="./blogs.html">Entra ya!</a>
-                </div>
-            </div>
-        </section>
-    </main>
-    <aside>
-        <div class="dark-mode-container">
-            <span class="material-icons dark-mode-container-icon">
-                dark_mode
-            </span>
-        </div>
-    </aside>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('./service-worker.js');
-            });
-        }
-    </script>
+<body class="no-scroll root">
+    
 </body>
 
 </html>

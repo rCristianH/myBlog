@@ -1,0 +1,31 @@
+{
+  "name": "myblog",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "This is my personal blog. I will be posting about my journey as a web developer. I will be sharing my experiences, my projects, and my thoughts. I hope you enjoy it!",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rCristianH/myBlog.git"
+  },
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "keywords": [
+    "blog",
+    "web development",
+    "web developer",
+    "personal blog"
+  ],
+  "author": "Cristian Ramirez",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "hyperscript": "^2.0.2"
+  }
+}
