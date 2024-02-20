@@ -11,7 +11,7 @@ export const AboutMe = h("main", [
         h("h2", "Hello!"),
         h(
           "p",
-          "Soy Cristian, nacido en Colombia, desde una edad temprana me ha llamado la atención la programaci&oacute;n. Tengo dominio de espa&ntilde;ol, e ingl&eacute;s nivel (A2). Mi curiosidad y entusiasmo por seguir creciendo profesionalmente en este apasionante mundo del desarrollo web no conocen l&iacute;mites. Estoy emocionado por seguir adquiriendo nuevas habilidades, enfrentar desafíos y colaborar en proyectos innovadores en este campo en constante evoluci&oacute;n."
+          "Soy Cristian, nacido en Colombia, desde una edad temprana me ha llamado la atención la programación. Tengo dominio de español, e inglés nivel (A2). Mi curiosidad y entusiasmo por seguir creciendo profesionalmente en este apasionante mundo del desarrollo web no conocen límites. Estoy emocionado por seguir adquiriendo nuevas habilidades, enfrentar desafíos y colaborar en proyectos innovadores en este campo en constante evolución."
         ),
       ]),
     ]),
@@ -20,22 +20,22 @@ export const AboutMe = h("main", [
     h("div.grid-container", [
       h("h3", "Habilidades Professionales"),
       h("div.skills-container", [
-        h("div.skill-item", [h("p", "Web Development <br>(HTML CSS y JS)")]),
-      ]),
-      h("div.skills-container", [
         h("div.skill-item", [
-          h("p", "Dise&ntilde;o Responsivo <br> Frameworks Material-UI"),
+          h("p", "Web Development", h("br"), "(HTML CSS y JS)"),
         ]),
       ]),
       h("div.skills-container", [
         h("div.skill-item", [
-          h("p", "Control de versiones <br>Git, colaboracion de equipos"),
+          h("p", "Diseño Responsivo", h("br"), "Frameworks Material-UI"),
         ]),
       ]),
       h("div.skills-container", [
         h("div.skill-item", [
-          h("p", "Metodolog&iacute;as &aacute;giles <br> Scrum"),
+          h("p", "Control de versiones", h("br"), "Git, colaboracion de equipos"),
         ]),
+      ]),
+      h("div.skills-container", [
+        h("div.skill-item", [h("p", "Metodologías ágiles", h("br"), "Scrum")]),
       ]),
       h("div.skills-container", [
         h("div.skill-item", [
@@ -44,10 +44,7 @@ export const AboutMe = h("main", [
       ]),
       h("div.skills-container", [
         h("div.skill-item", [
-          h(
-            "p",
-            "Adaptabilidad <br> nuevas tecnolog&iacute;as, marcos y lenguajes"
-          ),
+          h("p", "Adaptabilidad", h("br"), "nuevas tecnologías, marcos y lenguajes"),
         ]),
       ]),
     ]),
@@ -62,7 +59,7 @@ export const AboutMe = h("main", [
             h("img", { src: "https://i.imgur.com/T8igq5M.png" }),
             h(
               "p",
-              "Esta es una PWA diseñada para ayudar al usuario a gestionar los pedidos en su negocio y llevar un registro. <br> <br> #JS #PWA #VITE #JSPDF"
+              "Esta es una PWA diseñada para ayudar al usuario a gestionar los pedidos en su negocio y llevar un registro.", h("br"),h("br"), "#JS #PWA #VITE #JSPDF"
             ),
             h("button.primary-button.projects-container-button", "Leer mas"),
             /* href="https://rcristianh.github.io/AccountAssistant/ */
@@ -74,7 +71,7 @@ export const AboutMe = h("main", [
             h("img", { src: "https://i.imgur.com/ayzPmau.png" }),
             h(
               "p",
-              "Este es un proyecto de demostracion del uso de API`s con la api de TheMovieDB <br><br> #AXIOS #Languajes #DOM"
+              "Este es un proyecto de demostracion del uso de API`s con la api de TheMovieDB", h("br"),h("br"), "#AXIOS #Languajes #DOM"
             ),
             h("button.primary-button.projects-container-button", "Leer mas"),
           ]),

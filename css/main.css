@@ -358,7 +358,6 @@ a {
 .projects-container--slider::-webkit-scrollbar {
   background-color: var(--mora-suave);
   height: 3px;
-  width: 80%;
 }
 .projects-container--slider::-webkit-scrollbar-thumb {
   background-color: var(--mora-fuerte);
