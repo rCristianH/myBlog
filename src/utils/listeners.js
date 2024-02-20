@@ -56,7 +56,6 @@ const Listeners = () => {
     }
   });
 };
-
 const navigation = (element) => {
   window.history.pushState(null, null, element);
 };
@@ -86,17 +85,8 @@ const onBodyReplace = (use, element, array = []) => {
         document.body.removeChild(toReplace);
       });
     } catch {
-      console.log("No se encontraron elementos para eliminar");
+      return;
     }
   }
 };
 export default Listeners;
-
-/* 
-
-Falta metodo para regresar a la pagina anterior
-
-
-
-
-*/
