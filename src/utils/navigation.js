@@ -7,7 +7,7 @@ import { onBodyReplace, onBodyScroll } from "./util";
 
 //espera hasta que se carge la pagina para ejecutar un addEventListener
 export const Navigation = () => {
-  if (location.href.endsWith("/")) {
+  if (location.href.endsWith("/home")||location.href.endsWith("/")) {
     onBodyScroll(false);
     onBodyReplace("replace", Main, [4, 3]);
     window.history.pushState("null", "null", "/");
@@ -21,6 +21,7 @@ export const Navigation = () => {
     onBodyScroll(true);
     onBodyReplace("append", AboutMe);
   } else {
+    console.log("404");
     onBodyReplace("replace", lost);
     setTimeout(() => {
       onBodyScroll(false);

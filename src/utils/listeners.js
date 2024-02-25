@@ -18,7 +18,7 @@ const Listeners = () => {
       Navigation();
     }
     if (e.contains("nav--container-logo--img")) {
-      updateUrl("");
+      updateUrl("home");
       Navigation();
     }
   });
