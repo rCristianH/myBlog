@@ -22,10 +22,11 @@ export const Navigation = () => {
     onBodyReplace("append", AboutMe);
   } else {
     console.log("404");
-    onBodyReplace("replace", lost);
-    setTimeout(() => {
-      onBodyScroll(false);
-      onBodyReplace("replace", Main, [4, 3]);
-    }, 3000);
+    /* onBodyReplace("replace", lost); */
+    onBodyScroll(false);
+    onBodyReplace("replace", Main, [4, 3]);
+    /* setTimeout(() => {
+      
+    }, 1000); */
   }
 };
