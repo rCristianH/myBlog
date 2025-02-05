@@ -3,7 +3,7 @@ import { Contact } from "../templates/Contact/Contact";
 import { Footer } from "../templates/Footer/Footer";
 
 export const updateUrl = (url) => {
-  location.href = `${location.origin}/${url}`;
+  location.href = `${location.origin}/myBlog/${url}`;
 };
 export const onBodyScroll = (state) => {
   const body = document.body;
