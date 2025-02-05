@@ -10,7 +10,7 @@ export const Navigation = () => {
   if (location.href.endsWith("/home")||location.href.endsWith("/")) {
     onBodyScroll(false);
     onBodyReplace("replace", Main, [4, 3]);
-    window.history.pushState("null", "null", "/myBlog/home");
+    window.history.pushState("null", "null", "/home");
   } else if (location.href.endsWith("/news")) {
     onBodyScroll(true);
     onBodyReplace("replace", NewsPage);
